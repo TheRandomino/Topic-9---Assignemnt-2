@@ -17,14 +17,44 @@ namespace Topic_9___Assignemnt_2
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lblPlusHover(object sender, EventArgs e)
         {
-
+            lblAddition.Visible = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void lblMinusHover(object sender, EventArgs e)
         {
+            lblSubtraction.Visible = true;
+        }
 
+        private void lblMultiplyHover(object sender, EventArgs e)
+        {
+            lblMultiplication.Visible = true;
+        }
+
+        private void lblDivideHover(object sender, EventArgs e)
+        {
+            lblDivision.Visible = true;
+        }
+
+        private void lblPlusLeave(object sender, EventArgs e)
+        {
+            lblAddition.Visible = false;
+        }
+
+        private void lblMinusLeave(object sender, EventArgs e)
+        {
+            lblSubtraction.Visible = false;
+        }
+
+        private void lblMultiplyLeave(object sender, EventArgs e)
+        {
+            lblMultiplication.Visible = false;
+        }
+
+        private void lblDivideLeave(object sender, EventArgs e)
+        {
+            lblDivision.Visible = false;
         }
     }
 }
